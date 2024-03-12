@@ -1,0 +1,39 @@
+<html> 
+<head>  <title> form validation </title> </head> 
+<body> 
+
+<h1>Validations with JS </h1>
+
+<script type="text/javascript" src="validations.js">
+
+</script>   
+
+<form onsubmit="return mail()">
+<label> user name </label>
+<br>
+<input type="text" id="un">
+<span id="message1"> </span>
+<br>
+
+<label>Password: </label><br>
+<input type="password" id="pw1" value="" onfocus="return Text1()">
+<span id="message2"> </span>
+<br>
+
+<label>Confirm Password: </label><br>
+<input type="password" id="pw2" value="" onfocus="return Text2()">
+<span id="message3"> </span>
+<br>
+
+<label>Email : </label>
+<br>
+<input type="text" id="em" value="" onfocus="return Text3()">
+<span id="message4"> </span>
+<br>
+
+<button type="submit"> submit </button>
+</form>
+
+</body> 
+ 
+</html>
